@@ -1,0 +1,278 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/roboto-v30-latin-700.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/roboto-v30-latin-300.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/roboto-v30-latin-500.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Monsieur La Doulaise';
+	src: url('fonts/monsieur-la-doulaise-v14-latin-regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+html {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1520px;
+	background-color: white;
+}
+
+nav  {
+	background-color: grey;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 50px;
+	font-size: 18px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.markiert {
+	color: #640000;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 0;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+h1 {
+	font-size: 80px;
+	font-family: 'Monsieur La Doulaise';
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 22px;
+	font-weight: 700;
+	color: #640000;
+	padding-top: 20px;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 500;
+	color: #640000;
+}
+
+h5 {
+	font-size: 18px;
+	line-height: 0;
+}
+.bilder {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+}
+
+.images {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.bildunterschrift {
+	display: flex;
+	flex-direction: row;
+    padding-bottom: 40px;
+}
+
+.indexspace {
+	margin-left: 435px;
+	margin-right: 340px;
+}
+
+.ueberunsspace {
+	margin-left: 525px;
+	margin-right: 190px;
+}
+
+.space {
+	margin-left: 355px;
+	margin-right: 450px;
+}
+
+.text {
+	padding-bottom: 20px;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+.verlinkung {
+	font-weight: 500;
+	color: #640000;
+	text-decoration: underline;
+}
+.abschnitte {
+	padding-bottom: 20px;
+}
+
+.rooms {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 20px;
+}
+
+.roomimages {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 20px;
+}
+
+.anordnung {
+	display: flex;
+	flex-direction: row;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+.anordnung2 {
+	display: flex;
+	flex-direction: row;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+caption {
+	font-size: 22px;
+	font-weight: 700;
+	color: #640000;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+table {
+	border: 2px solid;
+	border-color: grey;
+	border-collapse: collapse;
+}
+
+th {
+	border: 2px solid;
+	border-color: grey;
+	padding: 10px;
+	background-color: white;
+}
+
+td {
+	text-align: right;
+	padding: 10px;
+}
+
+td:hover {
+	background-color: #640000;
+	opacity: 0.5;
+}
+
+a:hover {
+	color: #640000;
+}
+
+.stark {
+	text-align: center;
+	font-weight: 500;
+}
+
+.verfuegbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-bottom: 20px;
+}
+
+.nichtverfuegbar {
+	background-color: lightgrey;
+}
+
+.punkte {
+	list-style-type: circle;
+}
+
+.email {
+	font-weight: 500;
+}
+
+.anschrift {
+	line-height: 0.4;
+	padding-bottom: 5px;
+}
+
+.zeiten {
+	line-height: 0.5;
+}
+
+.anfahrt {
+	padding-bottom: 40px;
+}
+
+footer  {
+	background-color: grey;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 50px;
+	font-size: 12px;
+	line-height: 1.5;
+	color: white;
+}
+
+.ending {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.brand {
+	font-size: 14px;
+	color: #640000;
+}
+
+.provisorisch {
+	color: grey;
+}
+
+
+
+
